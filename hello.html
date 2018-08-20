@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+<title>Document</title>
+</head>
+<body>
+
+<div id = "app">
+{{message}}
+</div>
+
+<!--this is where the script that enables us run vue.js scripts is attached-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<!--this is a simple script for rendering message "Hello I just coded in Vue " on the browser-->
+<script>
+var app = new Vue({
+el : '#app',
+data : {
+message : 'Hello !..I just coded Vue'}})
+
+</script>
+</body>
+</html>
+ 
